@@ -47,18 +47,15 @@ DemandSenseX is designed to provide a comprehensive solution for inventory manag
 ## Architecture and Design
 
 ### System Architecture
-![System Architecture](https://github.com/user-attachments/assets/2f3303bb-fcac-4fb7-bb74-3bf0d0878f24)
+<img src="https://github.com/user-attachments/assets/2f3303bb-fcac-4fb7-bb74-3bf0d0878f24" alt="System Architecture" width="600"/>
 
-![Woodpecker hackathon PPT(3)](https://github.com/user-attachments/assets/0fb4fec7-e823-4b37-82cf-7bedbd47404a)
+<img src="https://github.com/user-attachments/assets/0fb4fec7-e823-4b37-82cf-7bedbd47404a" alt="System Architecture" width="600"/>
 
 ### Use Case Diagram
-![IWMS latest1](https://github.com/user-attachments/assets/3db32ca5-19ad-4b0b-870b-f48e282dfa80)
-
+<img src="https://github.com/user-attachments/assets/3db32ca5-19ad-4b0b-870b-f48e282dfa80" alt="System Architecture" width="600"/>
 
 ### Vendor Selection for Products Projected to be Out of Stock 
-![Woodpecker hackathon PPT(1)](https://github.com/user-attachments/assets/f55a7e1b-db3c-44b4-ab8f-a5782ed70b88)
-
-
+<img src="https://github.com/user-attachments/assets/f55a7e1b-db3c-44b4-ab8f-a5782ed70b88" alt="System Architecture" width="300"/>
 
 ## Features and Functionality
 
@@ -78,14 +75,11 @@ DemandSenseX is designed to provide a comprehensive solution for inventory manag
 ### Django Project
 
 #### Installation Guide
-1. Clone the repository.
+1. Navigate to the project directory.
     ```sh
-    git clone https://github.com/your-repo/django-project.git
+    cd Chatbot/myproject
     ```
-2. Navigate to the project directory.
-    ```sh
-    cd django-project
-    ```
+   
 3. Create and activate a virtual environment.
     ```sh
     python -m venv env
@@ -107,31 +101,27 @@ DemandSenseX is designed to provide a comprehensive solution for inventory manag
 ### Laravel Project
 
 #### Installation Guide
-1. Clone the repository.
+1. Navigate to the project directory.
     ```sh
-    git clone https://github.com/your-repo/laravel-project.git
+    cd "laravel main"
     ```
-2. Navigate to the project directory.
-    ```sh
-    cd laravel-project
-    ```
-3. Install Composer dependencies.
+2. Install Composer dependencies.
     ```sh
     composer install
     ```
-4. Copy `.env.example` to `.env` and configure your environment variables.
+3. Copy `.env.example` to `.env` and configure your environment variables.
     ```sh
     cp .env.example .env
     ```
-5. Generate the application key.
+4. Generate the application key.
     ```sh
     php artisan key:generate
     ```
-6. Run migrations.
+5. Run migrations.
     ```sh
     php artisan migrate
     ```
-7. Start the development server.
+6. Start the development server.
     ```sh
     php artisan serve
     ```
@@ -139,13 +129,13 @@ DemandSenseX is designed to provide a comprehensive solution for inventory manag
 ### React Project
 
 #### Installation Guide
-1. Clone the repository.
+1. Navigate to the project directory.
     ```sh
-    git clone https://github.com/your-repo/react-project.git
+    cd new_warehouse_visualizer
     ```
-2. Navigate to the project directory.
-    ```sh
-    cd react-project
+    &
+   ```sh
+    cd charts
     ```
 3. Install dependencies.
     ```sh
@@ -153,7 +143,7 @@ DemandSenseX is designed to provide a comprehensive solution for inventory manag
     ```
 4. Start the development server.
     ```sh
-    npm start
+    npm run dev
     ```
 
 ## Future Enhancements
